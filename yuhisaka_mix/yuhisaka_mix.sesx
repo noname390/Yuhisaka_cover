@@ -76,7 +76,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6de900fb-ddb1-4231-8ae6-f4bdbd301e46" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="8303e5ab-f5ce-4d7e-b61e-403dbf6c8214" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -97,7 +97,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="3d76b5bf-e653-4907-8258-6b57f3cb14e4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="e4c5f916-0bea-4e71-b59a-37e8ba8ddf8b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -114,7 +114,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
         <trackParameters trackHeight="90" trackHue="182" trackMinimized="false">
           <name>mikuvoice</name>
         </trackParameters>
@@ -276,11 +276,11 @@
               <parameter index="29" name="下限启用" parameterValue="1"/>
               <parameter index="30" name="上限频率启用" parameterValue="1"/>
               <parameter index="31" name="原始采样率" parameterValue="0.22968749701976776123046875"/>
-              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0023780106566846370697021484375"/>
-              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.009268135763704776763916015625"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
               <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.01943187974393367767333984375"/>
-              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.14707100391387939453125"/>
-              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.58803784847259521484375"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
               <parameter index="37" name="高通滤波启用" parameterValue="1"/>
               <parameter index="38" name="高通切除频率" parameterValue="0.0036901193670928478240966796875"/>
               <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
@@ -318,7 +318,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6e6fff34-767e-41a0-93c8-dc459e237019" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="af5ce081-73ff-4276-aa53-d057014945f3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -607,7 +607,7 @@
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
-      <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
+      <masterTrack automationLaneOpenState="false" id="10000" index="7" select="true" visible="true">
         <trackParameters trackHeight="90" trackHue="-1" trackMinimized="false">
           <name>主</name>
         </trackParameters>
@@ -679,7 +679,7 @@
             <parameter index="1" parameterValue="0"/>
           </component>
           <component componentGuid="d3a95813-42ba-4a7a-9ea9-a5860bbce12d" id="rackInput" powered="true">
-            <parameter index="0" parameterValue="1"/>
+            <parameter index="0" parameterValue="0.70794582366943359375"/>
             <parameter index="1" parameterValue="0"/>
           </component>
           <component componentGuid="6479657e-318e-4483-8669-0163efe6882a" id="rackOutput" powered="true">
@@ -701,7 +701,7 @@
             </component>
           </slot>
           <slot powered="true" slotIndex="1">
-            <component componentGuid="46118158-26cb-464a-81e7-9dbf65cb958d" componentID="e0b23f05-f1a7-4ef7-9b50-7ec3e3002058" editorHeight="353" editorLeft="731" editorTop="340" editorWidth="458" name="强制限幅">
+            <component componentGuid="46118158-26cb-464a-81e7-9dbf65cb958d" componentID="e0b23f05-f1a7-4ef7-9b50-7ec3e3002058" editorHeight="353" editorLeft="713" editorTop="438" editorWidth="458" name="强制限幅">
               <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"立体声放大","type":0}],"out":[{"layout":[100,101],"name":"立体声缩小","type":0}]}]]></busConfig>
               <channelMap direction="input">
                 <channel index="0" sourceIndex="0"/>
@@ -712,7 +712,7 @@
                 <channel index="1" sourceIndex="1"/>
               </channelMap>
               <parameter index="0" name="最大振幅" parameterValue="0.999000012874603271484375"/>
-              <parameter index="1" name="输入增强" parameterValue="0.66666698455810546875"/>
+              <parameter index="1" name="输入增强" parameterValue="0.706666648387908935546875"/>
               <parameter index="2" name="预测时间" parameterValue="0.13333301246166229248046875"/>
               <parameter index="3" name="释放时间" parameterValue="0.375"/>
               <parameter index="4" name="链接声道" parameterValue="1"/>
@@ -724,9 +724,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="0" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="0"/>
-      <viewState horizontalViewDuration="6661882" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="5528285" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="5528285"/>
+      <viewState horizontalViewDuration="5105244" horizontalViewStart="5105833" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -741,9 +741,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2019.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2022-07-16T21:42:19+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2022-07-16T22:20:17+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2022-07-16T22:20:17+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:835a9eba-9ef5-0940-bb5d-4a4216e87d0e</xmpMM:InstanceID>
+         <xmp:MetadataDate>2022-07-17T19:11:25+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2022-07-17T19:11:25+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:0bfd6e3e-943a-2d47-a44e-a76dfacceda9</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:aacb89bc-dd05-8e44-ac3c-221fbedba9dd</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:aacb89bc-dd05-8e44-ac3c-221fbedba9dd</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -808,6 +808,34 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:835a9eba-9ef5-0940-bb5d-4a4216e87d0e</stEvt:instanceID>
                   <stEvt:when>2022-07-16T22:20:17+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d606cde4-ff68-8340-a914-1555f19abff4</stEvt:instanceID>
+                  <stEvt:when>2022-07-17T14:30:12+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:22016a35-419e-8d44-86e9-a3ab0de4bfe1</stEvt:instanceID>
+                  <stEvt:when>2022-07-17T14:30:12+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:740e607b-3421-9245-a370-d31f8134cee6</stEvt:instanceID>
+                  <stEvt:when>2022-07-17T19:11:25+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0bfd6e3e-943a-2d47-a44e-a76dfacceda9</stEvt:instanceID>
+                  <stEvt:when>2022-07-17T19:11:25+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2019.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -935,8 +963,8 @@
   </session>
 
   <files>
-    <file absolutePath="F:\TTS\SVS\工程\2022\投稿\[NC]Yuhisaka\夕日坂_カラオケ.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="../夕日坂_カラオケ.wav"/>
-    <file absolutePath="F:\TTS\SVS\工程\2022\投稿\[NC]Yuhisaka\YHSK.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="../YHSK.wav"/>
+    <file absolutePath="F:\TTS\SVS\工程\2022\投稿\[NC]Yuhisaka\Audios\夕日坂_カラオケ.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="../Audios/夕日坂_カラオケ.wav"/>
+    <file absolutePath="F:\TTS\SVS\工程\2022\投稿\[NC]Yuhisaka\Audios\YHSK-VCR.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" relativePath="../Audios/YHSK-VCR.wav"/>
   </files>
 
   <audioDevice inputID="" outputID="F9AC2B17-3DE5-4F3D-89A2-03A2D79B838F">
